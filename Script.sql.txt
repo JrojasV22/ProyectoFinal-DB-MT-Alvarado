@@ -11,8 +11,10 @@ EXTENT MANAGEMENT LOCAL
 SEGMENT SPACE MANAGEMENT AUTO;
 
 --usuario y contraseña--
+-- NOTA: Por seguridad, la contraseña utilizada durante el desarrollo no se publica en este reposorio. Sustituya el valor "CAMBIAR_CONTRASENA" por la contraseña indicada en el documento del proyecto antes de ejecutar este script.
+
 CREATE USER MT_ALVARADO
-IDENTIFIED BY "Mt-Alva2026"
+IDENTIFIED BY "CAMBIAR_CONTRASENA"
 DEFAULT TABLESPACE TS_MT_ALVARADO
 TEMPORARY TABLESPACE TEMP
 QUOTA 1G ON TS_MT_ALVARADO
